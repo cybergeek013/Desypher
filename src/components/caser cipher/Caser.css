@@ -1,0 +1,71 @@
+.Casercontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  color: black;
+}
+.maincontainer {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-around;
+  background-color: rgba(227, 227, 227, 0.799);
+  border-radius: 10px;
+
+}
+.inputfield {
+  border-radius: 14px;
+  box-shadow: 0 15px 25px rgba(50, 47, 47, 0.364);
+  border:none;
+}
+textarea {
+  padding: 10px;
+  font-size: 10px;
+}
+.shiftfield {
+  border-radius: 14px;
+  padding-left: 10px;
+  width: 5em;
+  height: 2.5em;
+  font-size: 17px;
+  border:none;
+  box-shadow: 0 15px 25px rgba(50, 47, 47, 0.364);
+  
+}
+
+.btn {
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: sans-serif;
+  cursor: pointer;
+  padding: 12px;
+  min-width: 100px;
+  border: 0px;
+  -webkit-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+  width: 10px;
+}
+
+.btn-success:hover {
+  background: #27ae60;
+  color: #ffffff;
+}
+
+.outputfield {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding: 30px;
+  color: black;
+}
+::-webkit-scrollbar {
+  border-radius: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: rgb(91, 91, 205);
+}
+h1{
+  padding-top: 1em;
+}
